@@ -1,0 +1,24 @@
+@import url('./index.css');
+main.cont{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    background-color: white;
+    justify-content: space-around;
+    box-shadow: 0 0 2px grey;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.list:nth-child(4){
+    border: 1px solid red;
+}
+.list img{
+    width: 50px;
+    height: 50px;
+}
